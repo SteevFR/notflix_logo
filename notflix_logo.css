@@ -1,0 +1,20 @@
+/* Replace Logo with streamberry logo, this should be the last line in CSS */
+:root {
+    --logo: url("https://cdn.discordapp.com/attachments/853330552974344265/1016772045738098728/Notflix.png?ex=69ae6402&is=69ad1282&hm=5e660f8e6fef4a0c1756bbd538b450fb4a1b5d2134bb574021bfbdac9828db3d&");
+}
+
+.pageTitleWithDefaultLogo {
+    background-size: 100% !important;
+}
+
+.layout-mobile .pageTitleWithDefaultLogo {
+    width: 130px !important;
+}
+
+#loginPage .visualLoginForm:not(.hide) h1::before {
+  background-size: 50% !important;
+}
+
+#loginPage .manualLoginForm:not(.hide) h1.sectionTitle::before {
+  background-size: 100% !important;
+}
